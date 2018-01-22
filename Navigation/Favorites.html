@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Navigation</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <title>Favorites</title>
     <link rel="stylesheet" href="styles/styles.css">
 <style>
 
@@ -24,6 +23,9 @@
                 <div class="logobox">
                         <div class="logo"></div>
                 </div>
+
+            </div>
+            <div class="headrightside">
                 <div class="searchbox">
                     <!--Make sure the form has the autocomplete function switched off:-->
                     <form autocomplete="off" action="/action_page.php">
@@ -33,25 +35,35 @@
                         <input type="submit">
                     </form>
                 </div>
-            </div>
-            <!-- User account -->
-            <div class="user-account">
-                <div class="togglebutton">
-                    <!-- Rounded switch -->
-                    <p>Public view</p>
-                    <label class="switch">
-                        <input type="checkbox">
-                        <span class="slider round"></span>
-                    </label>
+                <!-- User account -->
+                <div class="user-account">
+
+                    <div class="togglebutton">
+                        <!-- Rounded switch -->
+                        <p>Public view</p>
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                    <div class="line"></div>
+                    <div class="help"></div>
+                    <div class="bell"></div>
+                    <div class="usericon"></div>
                 </div>
-                <div class="line"></div>
-                <div class="help"></div>
-                <div class="bell"></div>
-                <div class="usericon"></div>
             </div>
 
 
         </section>
+            <!-- Breadcrumbs -->
+            <nav>
+                <ul class="breadcrumb" style="">
+                    <li style="vertical-align:middle;"><a href="Index.html" >WA</a></li>
+                    <li style="vertical-align:middle;">Favorites</li>
+
+                </ul>
+            </nav>
+
         <!-- body section -->
         <section class="bodybox">
             <!-- left section -->
@@ -61,9 +73,9 @@
                 <div class="menubox">
                     <nav>
                         <ul class="first-menu">
-                            <li style="margin-bottom: 20px;"><img src="img/star.svg" align="absmiddle" /><a href="Favorites.html">Favorites</a></li>
+                            <li style="margin-bottom: 20px;"><img src="img/starActive.svg" align="absmiddle" /><a href="Favorites.html" class="active">Favorites</a></li>
                             <li><img src="img/dashboard.svg" align="absmiddle"><a href="Index.html">Dashboard</a></li>
-                            <li><img src="img/contactsActive.svg" align="absmiddle"><a href="Contacts.html" class="active">Contacts</a></li>
+                            <li><img src="img/contacts.svg" align="absmiddle"><a href="ContactsList.html">Contacts</a></li>
                             <li><img src="img/events.svg" align="absmiddle"><a href="Events.html">Events</a></li>
                             <li><img src="img/email.svg" align="absmiddle"><a href="Email.html">Email</a></li>
                             <li><img src="img/finance.svg" align="absmiddle"><a href="Finance.html">Finance</a></li>
@@ -79,12 +91,12 @@
                 <!-- Gorizontal menu box -->
                 <nav>
                     <ul class="second-menu">
-                        <li class="second-menu-item"><a href="#home">Summary</a></li>
-                        <li class="second-menu-item"><a href="#news">List</a></li>
-                        <li class="second-menu-item"><a href="#contact">Levels</a></li>
-                        <li class="second-menu-item"> <a href="#about">Groups</a></li>
-                        <li class="second-menu-item"> <a href="#about">Bundles</a></li>
-                        <li class="second-menu-item"> <a href="#about">Administrators</a></li>
+                        <li class="second-menu-item"><a href="ContactsSummary.html">Summary</a></li>
+                        <li class="second-menu-item-active"><a href="ContactsList.html" >List</a></li>
+                        <li class="second-menu-item"><a href="ContactsLevels.html">Levels</a></li>
+                        <li class="second-menu-item"> <a href="ContactsGroups.html">Groups </a></li>
+                        <li class="second-menu-item"> <a href="ContactsBundles.html">Bundles</a></li>
+                        <li class="second-menu-item"> <a href="ContactsAdministrators.html">Administrators</a></li>
                     </ul>
                 </nav>
 
@@ -93,7 +105,7 @@
                 <div class="contentbox"></div>
 
             </section>
-        </section>
+            </section>
 
 
     </div>
