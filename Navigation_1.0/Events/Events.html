@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My events</title>
+    <link rel="stylesheet" href="../Styles/styles.css"></link>
+    <!-- url(../Fonts/Fonts.css); -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css"></link> -->
+    <!-- <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css"> -->
+
+<style>
+
+
+</style>
+
+</head>
+<body>
+
+    <div class="boxRow">
+        <!-- <button class="ui button" role="button">Click Here</button> -->
+        <!-- Gorizontal headline Box where logo, global search line, userphoto -->
+        <section class="headbox">
+            <!-- Box with logo -->
+            <div class="headleftside">
+                <!-- Box with logo -->
+                <div class="logobox">
+                        <div class="logo"></div>
+                </div>
+
+            </div>
+            <!-- head center -->
+            <div class="headcenter">
+                <div class="searchbox">
+                    <!--Make sure the form has the autocomplete function switched off:-->
+                    <form autocomplete="off" action="/action_page.php">
+                        <div class="autocomplete" style="width:300px;">
+                            <input id="myInput" type="text" name="myCountry" placeholder="Search">
+                        </div>
+                        <!-- <input type="submit"> -->
+                    </form>
+                </div>
+            </div>
+            <div class="headrightside">
+
+                <!-- User account -->
+                <div class="user-account">
+
+                    <div class="togglebutton">
+                        <!-- Rounded switch -->
+                        <p>Public view</p>
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                    <div class="line"></div>
+                    <div class="help"></div>
+                    <div class="bell"></div>
+                    <div class="usericon"></div>
+                </div>
+            </div>
+
+
+
+        </section>
+
+
+    <!-- body with breadcrumbs -->
+    <section>
+        <!-- only breadcrumbs -->
+        <section>
+            <!-- Breadcrumbs -->
+            <nav class="breadcrumbbox">
+                <div class="ui breadcrumb ">
+                    <a class="section">Home</a>
+                    <div class="divider"> / </div>
+                    <a class="section">Events</a>
+                    <div class="divider"> / </div>
+                    <div class="active section">My events</div>
+                </div>
+            </nav>
+
+
+        </section>
+        <!-- body section -->
+        <section class="bodybox">
+            <!-- left section -->
+            <section class="vertical-leftbox">
+
+                <!-- left menu box -->
+                <div class="menubox">
+                    <nav>
+                        <ul class="first-menu">
+                            <li style="margin-bottom: 20px;"><img src="../img/star.svg" align="absmiddle" /><a href="../Favorites.html">Favorites</a></li>
+                            <li><img src="../img/dashboard.svg" align="absmiddle"><a href="../Dashboard.html">Dashboard</a></li>
+                            <li><img src="../img/contacts.svg" align="absmiddle"><a href="../Contacts/Contacts.html" >Contacts</a></li>
+                            <li><img src="../img/eventsActive.svg" align="absmiddle"><a href="#.html" class="active">Events</a></li>
+                            <li><img src="../img/email.svg" align="absmiddle"><a href="../Email.html">Email</a></li>
+                            <li><img src="../img/finance.svg" align="absmiddle"><a href="../Finances/Finances.html">Finance</a></li>
+                            <li><img src="../img/website.svg" align="absmiddle"><a href="../Website/Website.html">Website</a></li>
+                            <li><img src="../img/settings.svg" align="absmiddle"><a href="../Settings.html">Settings</a></li>
+                            <li style="margin-top: 20px;"><img src="../img/features.svg" align="absmiddle"><a href="../Features.html">Features</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </section>
+            <!-- Central content section -->
+            <section class="centralbox">
+                <!-- Gorizontal menu box -->
+                <div class="secondnavbox">
+                    <nav class="secondnav">
+                        <a class="active" href="#.html">My events</a>
+                        <a href="#.html">Tickets and sales</a>
+                        <a href="#here.html">Invite and promote</a>
+                        <a href="#here.html">Analytics</a>
+                        <a href="#here.html">Manage attendees</a>
+                        <a href="#here.html">Event reports</a>
+                    </nav>
+
+                    <nav class="secondnav">
+                        <!-- <a href="Summary.html">Membership setup</a> -->
+                        <a href="#.html" > Event settings</a><img style="margin: 32px 16px 0 0;" src="../img/arrowthinright.svg" align="absmiddle">
+                    </nav>
+                </div>
+
+                <!-- Main central box for content -->
+                <div class="contentbox">
+                    <!-- Filters block -->
+                    <section class="content-island">
+                        <div class="inner-boundaries">
+                            <div class="header-addPlus-box">
+                                <div>
+                                    <h1 style="margin-top: 16px; margin-bottom: 16px;">My events</h1>
+                                    <p >Here is a list of all events. You can filter or search by tag, for example, etc.</p>
+                                    <h2>Filters</h2>
+                                </div>
+                                <div class="buttonAddPlus"></div>
+                            </div>
+
+
+                            <div class="top-island">
+                                <div class="contact-select-box">
+                                    <form action="/action_page.php">
+                                      <select name="Contacts">
+                                        <option value="All">All</option>
+                                        <option value="This month">This month</option>
+                                        <option value="This year">This year</option>
+                                        <option value="Last month">Last month</option>
+                                        <option value="Last year">Last year</option>
+                                      </select>
+                                    </form>
+                                </div>
+                                <div class="contact-search-box">
+                                    <!--Make sure the form has the autocomplete function switched off:-->
+                                    <form autocomplete="off" action="/action_page.php">
+                                        <div class="autocomplete" style="width:300px;">
+                                            <input id="myInput2" type="text" name="allcontacts" placeholder="Search event">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="top-island">
+                                <div class="contact-select-box">
+                                    <form action="/action_page.php">
+                                      <select name="Contacts">
+                                        <option value="This month">Upcoming</option>
+                                        <option value="All">All</option>
+                                        <option value="This year">Past</option>
+                                        <option value="Last month">Admin only</option>
+                                      </select>
+                                    </form>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </section>
+                </div>
+
+            </section>
+            <!-- Right menu box place -->
+
+
+        </section>
+    </section>
+
+
+    </div>
+
+	<script src="../js/Script.js"></script>
+    <!-- <script src="semantic/dist/semantic.min.js"></script> -->
+
+</body>
+</html>
