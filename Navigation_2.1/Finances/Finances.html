@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Finances</title>
+    <link rel="stylesheet" href="../Styles/styles.css"></link>
+    <!-- url(../Fonts/Fonts.css); -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css"></link> -->
+    <!-- <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css"> -->
+
+<style></style>
+
+</head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<body>
+<section class="boxRow-align">
+    <div class="separator"></div>
+    <div class="whiteshadow"></div>
+    <div class="boxRow">
+        <!-- <button class="ui button" role="button">Click Here</button> -->
+
+        <!-- Gorizontal headline Box where logo, global search line, userphoto -->
+      <section class="headbox">
+            <!-- Box with logo -->
+            <div class="headleftside">
+                <!-- Box with logo -->
+                <div class="logobox">
+                        <div class="logo"></div>
+                </div>
+                <!-- only breadcrumbs -->
+                <section>
+                    <nav class="breadcrumbbox">
+                        <div class="ui breadcrumb ">
+                            <a href="../index.html" class="section">Home</a>
+                            <div class="divider"> / </div>
+                            <a href="#.html" class="active section">Finances</a>
+                            <div class="divider"> / </div>
+                            <a href="#.html" class="active section">Invoices</a>
+
+
+                        </div>
+                    </nav>
+                </section>
+
+            </div>
+            <!-- head center -->
+            <div class="headcenter">
+                <div class="searchbox">
+                    <!--Make sure the form has the autocomplete function switched off:-->
+                    <form autocomplete="off" action="/action_page.php">
+                        <div class="autocomplete" style="width:300px;">
+                            <input id="myInput" type="text" name="myCountry" placeholder="Search">
+                        </div>
+                        <!-- <input type="submit"> -->
+                    </form>
+                </div>
+            </div>
+            <div class="headrightside">
+
+                <!-- User account -->
+                <div class="user-account">
+
+                    <div class="togglebutton">
+                        <!-- Rounded switch -->
+                        <p class="togglebutton">Public view</p>
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                    <div class="line"></div>
+                    <div class="help"></div>
+                    <div class="bell"></div>
+                    <div class="usericon"></div>
+                </div>
+                  </div>
+      </section>
+            <!-- body section -->
+        <section class="bodybox">
+
+                <!-- first menu -->
+                <section>
+                        <nav >
+                            <ul class="first-menu">
+                                <li style="margin-bottom: 20px;"><img src="../img/star.svg" align="absmiddle" /><a href="../Favorites.html" >Favorites</a></li>
+                                <li><img src="../img/dashboard.svg" align="absmiddle"><a href="../index.html" >Dashboard</a></li>
+                                <li><img src="../img/contacts.svg" align="absmiddle"><a href="../Contacts/AllContacts.html">Contacts</a></li>
+                                <li><img src="../img/membership.svg" align="absmiddle"><a href="../Membership/MemberReports.html">Membership</a></li>
+                                <li><img src="../img/events.svg" align="absmiddle"><a href="../Events/AllEvents.html">Events</a></li>
+                                <li><img src="../img/email.svg" align="absmiddle"><a href="../Email.html" >Email</a></li>
+                                <li><img src="../img/financeActive.svg" align="absmiddle"><a href="#.html"class="active-first-menu">Finance</a></li>
+                                <li><img src="../img/website.svg" align="absmiddle"><a href="../Website/Website.html">Website</a></li>
+                                <li><img src="../img/settings.svg" align="absmiddle"><a href="../Settings/SummaryAccountSettings.html">Settings</a></li>
+                                <li style="margin-top: 20px;"><img src="../img/features.svg" align="absmiddle"><a href="../Features.html" >Features</a></li>
+                            </ul>
+                        </nav>
+
+                </section>
+                <!-- Second nav box -->
+                <div class="secondnavbox">
+                    <nav class="secondnav">
+                        <a id="before-menuitem" href="#.html"class="active">Invoices</a>
+                        <a href="#.html">Payments & refunds</a>
+                        <a href="#.html">Finance reports</a>
+                        <a href="#.html">Audit log</a>
+                        <a href="#.html">Tenders</a>
+                        <a href="#.html">QuickBooks</a>
+                    </nav>
+                    <!-- Second nav headline -->
+                  <!-- <nav class="secondnav active-second-rightnav-on">
+                          <a id="rightnav-open-button" href="#.html" >Member privacy settings  <img src="../img/arrowthinright.svg" align="absmiddle" ></a>
+                  </nav> -->
+
+                </div>
+                <!-- Central content section -->
+                <section class="centralbox-rightnav-off">
+                <!-- Main central box for content -->
+                <section class="content-island">
+                   <div class="inner-boundaries">
+                       <div class="header-addPlus-box">
+                           <div>
+                              <h1 style="margin-top: 16px; margin-bottom: 16px;">Invoices</h1>
+                              <p >Here is a list of all invoices. Use filter and data picker to search.</p>
+                              <h2>Filters</h2>
+                           </div>
+                           <div class="buttonAddPlus" style="margin-left: 450px;"></div>
+                       </div>
+
+
+                       <div class="top-island">
+                           <div class="contact-select-box">
+                              <form action="/action_page.php">
+                                 <select name="Contacts">
+                                   <option value="All">All</option>
+                                   <option value="with open balance">with open balance</option>
+                                   <option value="Refunds">Refunds</option>
+                                   <option value="Donations">Donations</option>
+                                   <option value="Online payment">Online payment</option>
+                                   <option value="Tender - Cash">Tender - Cash</option>
+                                   <option value="Tender - check">Tender - check</option>
+                                   <option value="Tender - Wire transfer">Tender - Wire transfer</option>
+                                   <option value="Tender - PayPal">Tender - PayPal</option>
+                                   <option value="Tender - Credit Card">Tender - Credit Card</option>
+                                   <option value="Tender - Special discount">Tender - Special discount</option>
+                                   <option value="No tender">No tender</option>
+                                 </select>
+                              </form>
+                           </div>
+                       </div>
+                       <!-- <div class="allcontacts-list" > -->
+                       </div>
+                   </div>
+               </section>
+            </section>
+            <!-- Right menu box place -->
+            <section class="rightnavbox " >
+                  <!-- Second nav headline -->
+                <nav class="secondnav active-second-rightnav-on">
+                        <a href="#.html" >Payment settings  <img src="../img/arrowthinright.svg" align="absmiddle" ></a>
+                </nav>
+                <!-- Membership setup link block -->
+                <div>
+                    <ul class="rightnav">
+                        <!-- <a href="#.html">Membership setup</a> -->
+                        <!-- <li><img src="../img/arrowthinleft.svg" align="absmiddle" ><a href="#.html" >Membership setup</a></li> -->
+                         <li><a href="#">Memberhip fields</a></li>
+                         <li><a class="active-rightnav" href="#news">Level management</a></li>
+                         <li><a href="#contact">Group management</a></li>
+                         <li><a href="#about">Bundle management</a></li>
+                    </ul>
+                </div>
+            </section>
+
+
+        <!-- body close /tag -->
+        </section>
+
+
+
+    <!-- Box row close /tag -->
+    </div>
+
+    <script>
+$(document).ready(function(){
+    $("#rightnav-open-button").click(function(){
+        $("#island").animate({
+            // left: '250px',
+            // opacity: '0.5',
+            // height: '150px',
+            width: '80%'
+        });
+    });
+});
+
+$(document).ready(function(){
+    $("#rightnav-open-button").click(function(){
+        $("#rightnav-open-button").css("border-bottom", "3px #278BF7 solid");
+    });
+});
+$(document).ready(function(){
+    $("#rightnav-open-button").click(function(){
+        $("#before-menuitem").css("border-bottom", "3px solid transparent");
+    });
+});
+
+</script>
+<script src="../js/Script.js"></script>
+    <!-- <script src="semantic/dist/semantic.min.js"></script> -->
+</section>
+</body>
+</html>

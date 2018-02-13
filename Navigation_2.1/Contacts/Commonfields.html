@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Common fields</title>
+    <link rel="stylesheet" href="../Styles/styles.css"></link>
+    <!-- url(../Fonts/Fonts.css); -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css"></link> -->
+    <!-- <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css"> -->
+
+<style></style>
+
+</head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<body>
+<section class="boxRow-align">
+    <div class="separator"></div>
+    <div class="whiteshadow"></div>
+    <div class="boxRow">
+        <!-- <button class="ui button" role="button">Click Here</button> -->
+
+        <!-- Gorizontal headline Box where logo, global search line, userphoto -->
+      <section class="headbox">
+            <!-- Box with logo -->
+            <div class="headleftside">
+                <!-- Box with logo -->
+                <div class="logobox">
+                        <div class="logo"></div>
+                </div>
+                <!-- only breadcrumbs -->
+                <section>
+                    <nav class="breadcrumbbox">
+                        <div class="ui breadcrumb ">
+                            <a href="../index.html" class="section">Home</a>
+                            <div class="divider"> / </div>
+                            <a href="AllContacts.html"class="section">Contacts</a>
+                            <div class="divider"> / </div>
+                            <a href="#.html" class="active section">Common database fields</a>
+
+
+                        </div>
+                    </nav>
+                </section>
+
+            </div>
+            <!-- head center -->
+            <div class="headcenter">
+                <div class="searchbox">
+                    <!--Make sure the form has the autocomplete function switched off:-->
+                    <form autocomplete="off" action="/action_page.php">
+                        <div class="autocomplete" style="width:300px;">
+                            <input id="myInput" type="text" name="myCountry" placeholder="Search">
+                        </div>
+                        <!-- <input type="submit"> -->
+                    </form>
+                </div>
+            </div>
+            <div class="headrightside">
+
+                <!-- User account -->
+                <div class="user-account">
+
+                    <div class="togglebutton">
+                        <!-- Rounded switch -->
+                        <p class="togglebutton">Public view</p>
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                    <div class="line"></div>
+                    <div class="help"></div>
+                    <div class="bell"></div>
+                    <div class="usericon"></div>
+                </div>
+                  </div>
+      </section>
+            <!-- body section -->
+        <section class="bodybox">
+
+                <!-- first menu -->
+                <section>
+                        <nav >
+                            <ul class="first-menu">
+                                <li style="margin-bottom: 20px;"><img src="../img/star.svg" align="absmiddle" /><a href="../Favorites.html" >Favorites</a></li>
+                                <li><img src="../img/dashboard.svg" align="absmiddle"><a href="../index.html" >Dashboard</a></li>
+                                <li><img src="../img/contactsActive.svg" align="absmiddle"><a href="#.html"class="active-first-menu">Contacts</a></li>
+                                <li><img src="../img/membership.svg" align="absmiddle"><a href="../Membership/MemberReports.html">Membership</a></li>
+                                <li><img src="../img/events.svg" align="absmiddle"><a href="../Events/AllEvents.html">Events</a></li>
+                                <li><img src="../img/email.svg" align="absmiddle"><a href="../Email.html" >Email</a></li>
+                                <li><img src="../img/finance.svg" align="absmiddle"><a href="../Finances/Finances.html">Finance</a></li>
+                                <li><img src="../img/website.svg" align="absmiddle"><a href="../Website/Website.html">Website</a></li>
+                                <li><img src="../img/settings.svg" align="absmiddle"><a href="../Settings/SummaryAccountSettings.html">Settings</a></li>
+                                <li style="margin-top: 20px;"><img src="../img/features.svg" align="absmiddle"><a href="../Features.html" >Features</a></li>
+                            </ul>
+                        </nav>
+
+                </section>
+                <!-- Second nav box -->
+                <div class="secondnavbox">
+                    <nav class="secondnav">
+                        <a id="before-menuitem" href="AllContacts.html">All contacts</a>
+                        <a href="AllDatabasefields.html">All database fields</a>
+                        <a href="#.html"class="active">Common database fields</a>
+                    </nav>
+                    <!-- Second nav headline -->
+                  <!-- <nav class="secondnav active-second-rightnav-on">
+                          <a id="rightnav-open-button" href="#.html" >Member privacy settings  <img src="../img/arrowthinright.svg" align="absmiddle" ></a>
+                  </nav> -->
+
+                </div>
+                <!-- Central content section -->
+                <section class="centralbox-rightnav-off">
+                <!-- Main central box for content -->
+                    <section id="island" class="content-island">
+
+                              <div class="header-addPlus-box" >
+                                  <div>
+                                      <h1 >Common fields</h1>
+                                       <p >Here is a list of Common fields in your base. <br> Wild Apricot database fields are divided into two classes: common fields – fields that apply to all records <br>(e.g. first name, last name, email address) – and additional fields that only apply to membership applications <br>(membership fields), event registrations, or donations..
+
+
+                                  </div>
+                                  <div class="buttonAddPlus"></div>
+                              </div>
+
+
+                              <div class="top-island" >
+                                  <div class="contact-select-box">
+                                      <form action="/action_page.php">
+                                        <select name="Contacts">
+                                          <option value="All">All common fields</option>
+                                          <option value="with Membership">block 1</option>
+                                          <option value="with Membership">block 2</option>
+                                          <option value="with Membership">block 3</option>
+                                          <option value="with Membership">block 4</option>
+
+                                        </select>
+                                      </form>
+                                  </div>
+                                  <div class="contact-search-box">
+                                      <!--Make sure the form has the autocomplete function switched off:-->
+                                      <form autocomplete="off" action="/action_page.php">
+                                          <div class="autocomplete" style="width:300px;">
+                                              <input id="myInput2" type="text" name="allcontacts" placeholder="Type to search field">
+                                          </div>
+                                      </form>
+                                  </div>
+                                  <div class="reset-image"></div>
+
+
+                              </div>
+                              <!-- <div class="allcontacts-list" > -->
+
+                              <div style="width: 400px; height: 400px;"></div>
+
+
+
+                </section>
+            </section>
+            <!-- Right menu box place -->
+            <section class="rightnavbox " >
+                  <!-- Second nav headline -->
+                <nav class="secondnav active-second-rightnav-on">
+                        <a href="#.html" >Membership fields  <img src="../img/arrowthinright.svg" align="absmiddle" ></a>
+                </nav>
+                <!-- Membership setup link block -->
+                <div>
+                    <ul class="rightnav">
+                        <!-- <a href="#.html">Membership setup</a> -->
+                        <!-- <li><img src="../img/arrowthinleft.svg" align="absmiddle" ><a href="#.html" >Membership setup</a></li> -->
+                         <li><a href="#">Memberhip fields</a></li>
+                         <li><a class="active-rightnav" href="#news">Level management</a></li>
+                         <li><a href="#contact">Group management</a></li>
+                         <li><a href="#about">Bundle management</a></li>
+                    </ul>
+                </div>
+            </section>
+
+
+        <!-- body close /tag -->
+        </section>
+
+
+
+    <!-- Box row close /tag -->
+    </div>
+
+
+<script>
+function autocomplete(inp, arr) {
+ /*the autocomplete function takes two arguments,
+ the text field element and an array of possible autocompleted values:*/
+ var currentFocus;
+ /*execute a function when someone writes in the text field:*/
+ inp.addEventListener("input", function(e) {
+      var a, b, i, val = this.value;
+      /*close any already open lists of autocompleted values*/
+      closeAllLists();
+      if (!val) { return false;}
+      currentFocus = -1;
+      /*create a DIV element that will contain the items (values):*/
+      a = document.createElement("DIV");
+      a.setAttribute("id", this.id + "autocomplete-list");
+      a.setAttribute("class", "autocomplete-items");
+      /*append the DIV element as a child of the autocomplete container:*/
+      this.parentNode.appendChild(a);
+      /*for each item in the array...*/
+      for (i = 0; i < arr.length; i++) {
+        /*check if the item starts with the same letters as the text field value:*/
+        if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
+          /*create a DIV element for each matching element:*/
+          b = document.createElement("DIV");
+          /*make the matching letters bold:*/
+          b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>";
+          b.innerHTML += arr[i].substr(val.length);
+          /*insert a input field that will hold the current array item's value:*/
+          b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
+          /*execute a function when someone clicks on the item value (DIV element):*/
+              b.addEventListener("click", function(e) {
+              /*insert the value for the autocomplete text field:*/
+              inp.value = this.getElementsByTagName("input")[0].value;
+              /*close the list of autocompleted values,
+              (or any other open lists of autocompleted values:*/
+              closeAllLists();
+          });
+          a.appendChild(b);
+        }
+      }
+ });
+ /*execute a function presses a key on the keyboard:*/
+ inp.addEventListener("keydown", function(e) {
+      var x = document.getElementById(this.id + "autocomplete-list");
+      if (x) x = x.getElementsByTagName("div");
+      if (e.keyCode == 40) {
+        /*If the arrow DOWN key is pressed,
+        increase the currentFocus variable:*/
+        currentFocus++;
+        /*and and make the current item more visible:*/
+        addActive(x);
+      } else if (e.keyCode == 38) { //up
+        /*If the arrow UP key is pressed,
+        decrease the currentFocus variable:*/
+        currentFocus--;
+        /*and and make the current item more visible:*/
+        addActive(x);
+      } else if (e.keyCode == 13) {
+        /*If the ENTER key is pressed, prevent the form from being submitted,*/
+        e.preventDefault();
+        if (currentFocus > -1) {
+          /*and simulate a click on the "active" item:*/
+          if (x) x[currentFocus].click();
+        }
+      }
+ });
+ function addActive(x) {
+    /*a function to classify an item as "active":*/
+    if (!x) return false;
+    /*start by removing the "active" class on all items:*/
+    removeActive(x);
+    if (currentFocus >= x.length) currentFocus = 0;
+    if (currentFocus < 0) currentFocus = (x.length - 1);
+    /*add class "autocomplete-active":*/
+    x[currentFocus].classList.add("autocomplete-active");
+ }
+ function removeActive(x) {
+    /*a function to remove the "active" class from all autocomplete items:*/
+    for (var i = 0; i < x.length; i++) {
+      x[i].classList.remove("autocomplete-active");
+    }
+ }
+ function closeAllLists(elmnt) {
+    /*close all autocomplete lists in the document,
+    except the one passed as an argument:*/
+    var x = document.getElementsByClassName("autocomplete-items");
+    for (var i = 0; i < x.length; i++) {
+      if (elmnt != x[i] && elmnt != inp) {
+      x[i].parentNode.removeChild(x[i]);
+    }
+ }
+}
+/*execute a function when someone clicks in the document:*/
+document.addEventListener("click", function (e) {
+    closeAllLists(e.target);
+});
+}
+
+
+/*An array containing all text tags in the account:*/
+var countries = ["Administrator", "Add contact", "Add member", "Add administrator", "Add level", "Add group", "Add bundle", "Add logo to site", "Add logo to member card", "Association account", "Account", "Administrative settings", "Brand the website", "Butch contact update", "Butch member update", "Butch contact update", "Filters", "Membership", "Membership list", "Membership emails", "Membership card", "Membership settings", "Membership field", "Members location mapping", "Map", "Google map", "Card", "Contact", "Contact list", "Create event", "Changing level price", "Customizing membership emails", "Email", "Pull", "Renew", "Renewal date", "Renewal day", "Join", "Send email", "Organization", "Pending", "Referals", "Support", "Getting started", "Public view", "Email butch", "Features", "Settings", "Security settings", "User account", "Help"];
+
+/*initiate the autocomplete function on the "myInput" element, and pass along the countries array as possible autocomplete values:*/
+autocomplete(document.getElementById("myInput"), countries);
+
+/*An array containing all the contacts names in the database:*/
+var allcontacts = ["address1", "address2", "common", "pnone1", "email", "mobile phone", "mobile phone 2", "organization", "age", "name", "surname", "last name", "city", "postal code", "zip code", "country", "region"];
+
+/*initiate the autocomplete function on the "myInput" element, and pass along the countries array as possible autocomplete values:*/
+autocomplete(document.getElementById("myInput2"), allcontacts);
+
+
+</script>
+    <!-- <script src="semantic/dist/semantic.min.js"></script> -->
+</section>
+</body>
+</html>
